@@ -1,4 +1,4 @@
-Question 1: Create the student table
+-- Question 1: Create the student table
 
 CREATE TABLE student (
     id INT PRIMARY KEY,
@@ -7,7 +7,7 @@ CREATE TABLE student (
 );
 
 
-Question 2: Insert 3 records
+-- Question 2: Insert 3 records
 
 INSERT INTO student (id, fullName, age) VALUES
 (1, 'Alice Mwangi', 22),
@@ -15,11 +15,11 @@ INSERT INTO student (id, fullName, age) VALUES
 (3, 'Charlie Wanjiku', 21);
 
 
-Question 3: Update the age of student with ID 2
+-- Question 3: Update the age of student with ID 2
 
 UPDATE student SET age = 20 WHERE id = 2;
 
 
-Verify the results
+-- Verify the results
 
 SELECT * FROM student;

@@ -27,3 +27,7 @@
 2. Run: `mysql -u root -p`
 3. Select database: `USE sales;`
 4. Run the SQL commands from each file
+
+## Week 5: Database Indexing and Optimization
+
+- **answers.sql** - SQL queries for dropping indexes, creating users, granting privileges, and changing passwords.
